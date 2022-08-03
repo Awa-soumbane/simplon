@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+    color: white;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+        
+    }
+    #container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body{
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+    }
+    .bloc{
+        background-color: yellow;
+        height: 150px;
+        width: 45%;
+        margin: 5px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+       
+    }
+    p{transform: rotate(90deg);
+        color: blue;
+        font-size: 30px;
+        font-weight: bold;
+    }
+   
