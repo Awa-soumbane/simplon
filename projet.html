@@ -1,22 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc2</title>
     <link rel="stylesheet" href="projet.css">
+
+
 </head>
 
 <body>
-    <img src="simplon_inauguration_0.png" alt="image"> 
+    <img src="simplon_inauguration_0.png" alt="image">
     <h2>Mon premier projet Tp1:awa</h2>
-    <section>
+
     <div id="container">
-    <div class="bloc"><p>bloc1</p> </div>
-    <div class="bloc"><p>bloc2</p> </div>
-    <div class="bloc"><p>bloc3</p> </div>
-    <div class="bloc"><p>bloc4</p> </div>
-</div>
+
+        <div class="bloc" id="bloc1">
+            <span id="couleur1">bloc1</span>
+        </div>
+        <div class="bloc" id="bloc2">
+            <span id="couleur2">bloc2</span>
+        </div>
+        <div class="bloc" id="bloc3">
+            <span id="couleur3">bloc3</span>
+        </div>
+        <div class="bloc" id="bloc4">
+            <span id="couleur4">bloc4</span>
+        </div>
+
+    </div>
+    <button id="button" onclick="myfunction()">ok</button>
+    <div id="formulaire">
+
+        <div id="conteneur">
+            <form>
+                <h1>Formulaire</h1>
+                <label for="name"><strong>prénom</strong> </label><br>
+                <input type="text" id="prenom" placeholder="prenom" class="form-control"><br>
+
+                <label for="name"><strong>nom</strong> </label><br>
+                <input type="text" id="nom" placeholder="nom" class="form-control"><br>
+                <div class="prenom-erreur"></div>
+                
+                <label for="name"><strong>Email</strong> </label><br>
+                <div class="prenom-erreur" placeholder="Email"></div>
+                <input type="text" id="mail" class="form-control"><br>
+                <label for="name"><strong>Tel</strong> </label><br>
+                <input type="text" id="tel" class="form-control"><br>
+                <strong>Commentaire</strong>
+                <textarea name="" id="comment" class="form-control" cols="60" rows="10"></textarea>
+                <input type="submit" id="submit" onclick="myname()" value="ENVOYER">
+
+
+            </form>
+            <div>
+                <p id="forma"></p>
+            </div>
+
+            <script src="style.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-----
+    <button id="button" onclick="myfunction()">ok</button>
+    <div id="formulaire">
+
+        <form action="traitement.php" method="post">
+
+            <label for="prenom">
+                Entrez votre prenom:
+                <br>
+            </label>
+            <input type="prenom" name="prenom" id="prenom">
+            <span id="pernom manquant"></span><br>
+
+            <label for="nom">
+                Entrez votre nom:
+                <br>
+            </label>
+            <input required placeholder="text" name="nom" id="nom">
+            <br>
+            <label for="mail"></label>
+            Entrez votre email:
+            <br>
+            </label>
+            <input type="mail" name="mail" id="mail">
+            <br>
+            <label for="com"></label>
+            commentaire:
+            <br>
+            </label>
+            <input type="com" name="com" id="com">
+            <br>
+            <input type="submit" value="Envoyer" onclick="myname">
+           
+        </form>
+        
+</body>
+</html>
+  
+
+
+
+
+   
+    <button id="button" onclick="myfunction()">ok</button>
+    <div id="formulaire">
+
+        <form action="traitement.php" method="post">
+
+            <label for="prenom">
+                Entrez votre prenom:
+                <br>
+            </label>
+            <input type="prenom" name="prenom" id="prenom">
+            <span id="pernom manquant"></span><br>
+
+            <label for="nom">
+                Entrez votre nom:
+                <br>
+            </label>
+            <input required placeholder="text" name="nom" id="nom">
+            <br>
+            <label for="mail"></label>
+            Entrez votre email:
+            <br>
+            </label>
+            <input type="mail" name="mail" id="mail">
+            <br>
+            <label for="com"></label>
+            commentaire:
+            <br>
+            </label>
+            <input type="com" name="com" id="com">
+            <br>
+            <input type="submit" value="Envoyer" onclick="myname">
+           
+        </form>
+        
 </body>
 </html>
